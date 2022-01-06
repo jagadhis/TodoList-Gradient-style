@@ -75,7 +75,7 @@ window.onload = function() {
 
 	
 	function displayList() {
-		list.style.borderTop = "2px solid white";
+		list.style.borderTop = "1px solid white";
 		todoList = JSON.parse(localStorage.getItem("todoList"));
 		todoList.forEach(function(element) {
 			console.log(element.item)
